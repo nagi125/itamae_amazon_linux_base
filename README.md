@@ -1,4 +1,4 @@
-# itama_amazon_linux_base
+# itamae_amazon_linux_base
 ## 概要
 Itamaeを使ったAmazonLinux初期設定用のレシピです  
 [公式のベストプラクティス](https://github.com/itamae-kitchen/itamae/wiki/Best-Practice)に従って作っています
