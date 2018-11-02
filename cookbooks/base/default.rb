@@ -104,7 +104,8 @@ execute "useradd #{node[:server][:base][:username]}" do
   not_if "less /etc/passwd | grep #{node[:server][:base][:username]}"
 end
 
-template "/etc/sudoers.d/base.erb" do
+# 初期設定ユーザーがsudoできるように
+template "/etc/sudoers.d/base" do
   action :create
   owner "root"
   group "root"
