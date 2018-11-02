@@ -1,0 +1,8 @@
+{
+    "server": {
+        "base": {
+            "username": "user-name",
+            "hostname": "hostname.local"
+        }
+    }
+}
